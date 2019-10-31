@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Navigation Section */
@@ -27,9 +28,8 @@
 
 .top-navbar ul li a {
   text-decoration-line: none;
-  color: rgb(151, 150, 150);
+  color: rgb(117, 110, 110);
   font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .top-navbar ul li a:hover {
@@ -44,4 +44,88 @@
 .right-list {
   justify-content: flex-end;
   padding-right: 13px;
+}
+
+.main-navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 48px;
+  align-items: center;
+}
+
+
+.main-navbar ul {
+  display: flex;
+  padding-left: 12px;
+
+}
+
+.main-navbar ul li{
+  list-style: none;
+}
+
+.main-navbar ul li a {
+  text-decoration-line: none;
+  padding: 10px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.main-navbar div {
+  width: 50px;
+  border-left: 1px solid rgb(209, 207, 207);
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.main-navbar div i {
+  color: rgb(209, 207, 207);
+  
+} 
+
+.main-navbar div i:hover, 
+.main-navbar ul li a:hover {
+  color: #555;
+} 
+
+.main-articles{
+  display: flex;
+}
+
+.first-background{
+  width: 65%;
+  height: 418px;
+}
+
+.big-one {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/thumb_site-796x417.png");
+  background-repeat: no-repeat;
+  height: 350px;
+}
+
+.second-background {
+  display: flex;
+  width: 35%;
+  height: 418px;
+  flex-direction: column;
+}
+
+.second-one {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/italian-blokchain-bitcoin-cryptocurrency-sales-online-purchases-payment-480x270.jpg");
+  background-repeat: no-repeat;
+  height: 200px;
+  flex-grow: 1;
+
+  
+  
+}
+
+.third-one {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/200-calories-4-3-516x270.png");
+  background-repeat: no-repeat;
+  height: 200px;
+  flex-grow: 1;
 }
