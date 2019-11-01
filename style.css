@@ -254,7 +254,7 @@
 }
 
 .second-one {
-  background-image: url("images/italian-blokchain.jpg");
+  background-image: url(images/italian-blokchain.jpg);
   background-repeat: no-repeat;
   height: 100%;
 }
@@ -477,4 +477,139 @@
 
 .companies-info p:nth-child(2) {
   color: #aaa;
+}
+
+/* Article Section  */
+
+.article-sections {
+  display: flex;
+  flex-wrap: wrap;
+  height: 2167px;
+  width: 85%;
+  margin: 70px auto;
+}
+
+.article-sections > div {
+  width: 33%;
+  border: 12px solid white;
+}
+
+.article-sections > div > a {
+  font-size: 28px;
+  color: #f42;
+  font-weight: 800;
+  line-height: 1.1;
+  text-decoration-line: none;
+  letter-spacing: -.025em;
+}
+
+.article-sections > div > a:hover {
+  color: black;
+}
+
+.article-back-img {
+  width: 100%;
+  height: 276px;
+  margin-top: 12px;
+  position: relative;
+}
+
+.article-section-back-img-1 {
+  background-image: url(images/twitter.png);
+  background-size: 100% 100%;
+}
+
+.article-section-back-img-2 {
+  background-image: url(images/iphone.jpeg);
+  background-size: 100% 100%;
+}
+
+.article-section-back-img-3 {
+  background-image: url(images/spy.png);
+  background-size: 100% 100%;
+}
+
+.article-section-back-img-4 {
+  background-image: url(images/Arcade.jpg);
+  background-size: 100% 100%;
+}
+
+.article-section-back-img-5 {
+  background-image: url(images/zero-trust.jpg);
+  background-size: 100% 100%;
+}
+
+.article-section-back-img-6 {
+  background-image: url(images/Computer-Code.jpg);
+  background-size: 100% 100%;
+}
+
+.article-section-back-img-7 {
+  background-image: url(images/Amazon-Prime.jpg);
+  background-size: 100% 100%;
+}
+
+.article-section-back-img-8 {
+  background-image: url(images/playstation-vue.jpg);
+  background-size: 100% 100%;
+}
+
+.most-popular-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 13px;
+}
+
+.most-popular-container p:nth-child(1) {
+  color: #fff;
+  font-size: 13px;
+}
+
+.most-popular-container > a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-decoration-line: none;
+}
+
+.most-popular-container > a:hover {
+  box-shadow: inset 0 -1px 0 hsla(0,0%,100%,.3);
+}
+
+.small-img-latest img {
+  width: 96px;
+  height: 96px;
+  top: 10px;
+}
+
+.latest-container {
+  height: 96px;
+  background-color: rgba(255,68,34,.08);
+  color: #f42;
+  padding-left: 13px;
+}
+
+.latest-container a {
+  color: #f42;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-decoration-line: none;
+}
+
+.latest-container a:hover {
+  box-shadow: inset 0 -1px 0 rgba(255,68,34,.2);
+}
+
+.latest-container p {
+  display: inline-block;
+  width: 230px;
+  padding-top: 10px;
+}
+
+.small-img-latest {
+  float: right;
+  clear: both;
 }
