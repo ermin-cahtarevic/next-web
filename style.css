@@ -52,6 +52,7 @@
   justify-content: space-between;
   height: 48px;
   align-items: center;
+  border-bottom: 0.5px solid rgb(209, 207, 207);
 }
 
 
@@ -91,25 +92,46 @@
   color: #555;
 } 
 
+/* Main Articles */
+
 .main-articles{
   display: flex;
 }
 
 .first-background{
   width: 65%;
-  height: 418px;
+  height: 500px;
   position: relative;
+  border: 5px solid white;
+  border-top-width: 10px;
 }
 
 .first-background > a{
-  height: 100%;
+  height: 90%;
   width: 100%;
   display: inline-block;
   z-index: 99;
   position: absolute;
   top: 0;
   left: 0;
+  background-size: 100% 100%;
+}
 
+.red-gradient {
+  background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/cover-gradient.png") no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.black-gradient {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+  background-size: 100% 100%;
 }
 
 .first-background > img {
@@ -117,11 +139,12 @@
   top: 10px;
   left: 10px;
   width: 50%;
+  z-index: 98;
 }
 .article-text {
   position: absolute;
   bottom: 0;
-  height: 50%;
+  height: 40%;
   padding-left: 10px;
   padding-right: 10px;
   
@@ -144,13 +167,23 @@
 .author {
   color: hsla(0,0%,100%,.6);
   font-size: 12px;
-  padding-top: 15px;
+  padding: 5px 0 15px;
 }
 
 .author a {
-   color: hsla(0,0%,100%,.6);
-   text-decoration-line: none;
-   padding-right: 15px;
+  color: hsla(0,0%,100%,.6);
+  text-decoration-line: none;
+  z-index: 99999;
+}
+
+.author a:hover {
+  color: hsla(0,0%,100%,1);
+  z-index: 99999;
+}
+
+.author img {
+  width: 12px;
+  height: 12px;
 }
 
 .clock {
@@ -164,6 +197,7 @@
   right: 10px;
   color: white;
   font-size: 14px;
+  z-index: 100;
 }
 
 
@@ -178,21 +212,55 @@
 .second-background {
   display: flex;
   width: 35%;
-  height: 418px;
+  height: 500px;
   flex-direction: column;
 }
 
-.second-one {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/italian-blokchain-bitcoin-cryptocurrency-sales-online-purchases-payment-480x270.jpg");
-  background-repeat: no-repeat;
-  height: 200px;
-  flex-grow: 1;
+.second-background article {
+  position: relative;
+  height: 50%;
+}
 
+.small-article {
+  border: 5px solid white;
+  border-top-width: 10px;
+}
+
+.small-article > a {
+  height: 90%;
+  width: 100%;
+  display: inline-block;
+  z-index: 99;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.small-article-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 15px 10px 10px;
+}
+
+.small-article-text p {
+  color: white;
+  font-size: 14px;
+  letter-spacing: .04em;
+  line-height: 1.5;
+}
+
+.second-one {
+  background-image: url("images/italian-blokchain.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
 }
 
 .third-one {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/200-calories-4-3-516x270.png");
+  background-image: url(images/study-women.png);
   background-repeat: no-repeat;
-  height: 200px;
-  flex-grow: 1;
+  height: 100%;
 }
