@@ -346,6 +346,42 @@
   margin: 0 auto;
 }
 
+.latest-funding-wrap {
+  display: flex;
+  height: 32px;
+  width: 85%;
+  margin: 70px auto 0;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.latest-funding-wrap > a {
+  padding-left: 22px;
+  font-size: 28px;
+  color: #f42;
+  font-weight: 800;
+  line-height: 1.1;
+  text-decoration-line: none;
+  letter-spacing: -.025em;
+}
+
+.latest-funding-menu a {
+  text-decoration-line: none;
+  color: #f42;
+  font-size: 16px;
+  margin: 0 5px;
+}
+
+.latest-funding-menu a:hover {
+  color:black;
+}
+
+.latest-funding-menu a:nth-child(2) {
+  border-left: 1px solid #f42;
+  border-right: 1px solid #f42;
+  padding: 0 6px;
+}
 .companies {
   width: 25%;
   border: 12px solid white;
@@ -381,11 +417,11 @@
 .companies-description {
   width: 100%;
   background: rgba(255,68,34,.08);
-  height: 23.5px;
+  height: 28px;
 }
 
 .companies-money {
-  font-size: 18px;
+  font-size: 16px;
   color:#000;
   line-height: 1;
   font-weight: 700;
@@ -393,11 +429,52 @@
 }
 
 .companies-description {
-  color:#000;
-  opacity: .5;
+  color: rgba(0,0,0,0.5) ;
   font-size: 12px;
   font-weight: 500;
   line-height: 1.5;
   padding: 2px 16px 10.6666666667px 84px;
+  
 }
 
+.tag {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  border-bottom: 1px solid rgba(255,68,34,.25);
+  padding-bottom: 15px;
+}
+
+.tag a{
+  text-decoration-line: none;
+  color: #555;
+  font-size: 13px;
+  padding: 9px 0 0 7px;
+}
+
+.tag a:hover {
+  color: black;
+}
+
+.tag a i{
+  font-size: 17px;
+}
+
+.companies-info {
+  font-size: 11px;
+  color: #555;
+  font-weight: 400;
+}
+
+.companies-info p {
+  padding: 0 10px;
+  line-height: 15px;
+}
+
+.companies-info p:nth-child(1) {
+  padding-top: 10px;
+}
+
+.companies-info p:nth-child(2) {
+  color: #aaa;
+}
