@@ -936,4 +936,12 @@ footer {
   .article-sections > div {
     width: 50%;
   }
+
+  .latest-deals-img-container > div {
+    width: 33%;
+  }
+
+  .latest-deals-title {
+    padding: 0 18px 0 10px; 
+  }
 }
