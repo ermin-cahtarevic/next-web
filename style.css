@@ -224,7 +224,6 @@
 .second-background {
   display: flex;
   width: 35%;
-  height: 600px;
   flex-direction: column;
 }
 
@@ -1020,7 +1019,7 @@ footer {
   }
 
   .first-background,
-  .small-article {
+  .second-background article {
     height: 220px;
   }
 
