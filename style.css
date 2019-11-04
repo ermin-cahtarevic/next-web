@@ -490,7 +490,6 @@
 .article-sections {
   display: flex;
   flex-wrap: wrap;
-  height: 2167px;
   max-width: 1192px;
   margin: 70px auto;
 }
@@ -932,5 +931,9 @@ footer {
 
   .com-b8ta {
     display: none;
+  }
+
+  .article-sections > div {
+    width: 50%;
   }
 }
