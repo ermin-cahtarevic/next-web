@@ -671,6 +671,7 @@
   width: 25%;
   padding: 0 12px;
   margin-top: 12px;
+  position: relative;
 }
 
 .latest-deals-img-container > div img {
@@ -680,7 +681,6 @@
 
 .latest-deals-img-container > div a {
   text-decoration-line: none;
-  height: 201px;
   width: 100%;
   display: inline-block;
 }
@@ -1100,6 +1100,39 @@ footer {
 
   .article-back-img {
     height: 480px;
+  }
+
+  .latest-deals-img-container div {
+    width: 100%;
+  }
+
+  .latest-deals-img-container div a img {
+    width: 75px;
+    height: 75px;
+    float: left;
+  }
+  
+  .latest-deals-img-container div a p {
+    margin-left: 90px;
+  }
+
+  .first-price,
+  .second-price {
+    position: absolute;
+  }
+
+  .first-price {
+    left: 100px;
+    top: 40%;
+  }
+
+  .second-price {
+    left: 138px;
+    top: 26%;
+  }
+
+  .off {
+    display: none;
   }
 }
 
