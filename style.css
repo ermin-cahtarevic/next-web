@@ -583,7 +583,7 @@
 }
 
 .latest-container {
-  height: 100px;
+  min-height: 100px;
   background-color: rgba(255,68,34,.08);
   color: #f42;
   padding-left: 13px;
@@ -641,3 +641,125 @@
 .article-sections div ul li a:hover {
   color: #000;
 }
+
+/* Latest Deal Section */
+
+.latest-deals{
+  max-width: 1192px;
+  margin: 0 auto;
+}
+
+.latest-deals-img-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.latest-deals-img-container > div {
+  width: 25%;
+  padding: 0 12px;
+  margin-top: 12px;
+}
+
+.latest-deals-img-container > div img {
+  height: 201px;
+  width: 100%;
+}
+
+.latest-deals-img-container > div a {
+  text-decoration-line: none;
+  height: 201px;
+  width: 100%;
+  display: inline-block;
+}
+
+
+.latest-deals-img-container div a p {
+  color: #000;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+
+}
+
+.latest-deals-img-container div > p {
+  display: inline;
+}
+
+.first-price {
+  font-size: 12px;
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.second-price {
+  font-size: 16px;
+  color: #555;
+  line-height: 35px;
+}
+
+.latest-deals-img-container > div a p:hover {
+  color: #f42;
+  box-shadow: inset 0 -1px 0 rgba(255,68,34,.25);
+  
+}
+
+.latest-deals-img-container > div a {
+  text-decoration-line: none;
+  position: relative;
+}
+
+
+
+.latest-deals-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.latest-deals-title a {
+  color:#f42;
+  font-weight: 800;
+  line-height: 1.1;
+  text-decoration-line: none;
+  letter-spacing: -.025em;
+}
+
+.latest-deals-title a:nth-child(1) {
+  font-size: 28px;
+}
+
+.latest-deals-title a:nth-child(2) {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.latest-deals-title a:nth-child(1):hover,
+.latest-deals-title a:nth-child(2):hover {
+  color: #000;
+}
+
+.off {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+}
+
+.off div {
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+  left: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  width: 100%;
+  color: #000;
+}
+
