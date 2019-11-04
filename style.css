@@ -999,8 +999,38 @@ footer {
     padding: 0 16px;
     color: #f42;
   }
+
+  .red-gradient,
+  .date,
+  .first-background > img {
+    visibility: hidden;
+  }
+  
+  .main-articles {
+    flex-direction: column;
+  }
+
+  .article-text{
+    height: 50%;
+  }
+
+  .first-background,
+  .second-background {
+    width: 100%;
+  }
+
+  .first-background,
+  .small-article {
+    height: 220px;
+  }
+
+  .article-text h2,
+  .small-article-text h2 {
+    font-size: 20px;
+  }
+}
+
   
 
   
-}
 
