@@ -925,4 +925,12 @@ footer {
   .latest-funding-menu {
     padding: 4px 0px 10px 17px;
   }
+
+  .companies {
+    width: 33%;
+  }
+
+  .com-b8ta {
+    display: none;
+  }
 }
