@@ -914,4 +914,15 @@ footer {
     padding: 5px 10px;
     
   }
+
+  .latest-funding-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 65px;
+    margin: 70px auto 0;
+  }
+
+  .latest-funding-menu {
+    padding: 4px 0px 10px 17px;
+  }
 }
