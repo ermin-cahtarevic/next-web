@@ -352,7 +352,6 @@
 .latest-funding-companies {
   display: flex;
   max-width: 1192px;
-  height: 247px;
   margin: 0 auto;
 }
 
@@ -374,6 +373,10 @@
   line-height: 1.1;
   text-decoration-line: none;
   letter-spacing: -.025em;
+}
+
+.latest-funding-wrap > a:hover {
+  color: #000;
 }
 
 .latest-funding-menu a {
@@ -969,7 +972,7 @@ footer {
     height: 48px;
     display: flex;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     align-items: center;
     top: 0;
     left: 0;
@@ -1026,6 +1029,77 @@ footer {
   .article-text h2,
   .small-article-text h2 {
     font-size: 20px;
+  }
+
+  .latest-articles article {
+    flex-basis: 100%;
+  }
+
+  .latest-articles article a img {
+    width: 75px;
+    height: 75px;
+    float: left;
+  }
+
+  .latest-articles article a h3 {
+    padding-top: 0;
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .latest-articles article a h3,
+  .latest-articles article p {
+    margin-left: 85px;
+  }
+
+  .latest-funding-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 110px;
+    margin: 70px auto 0;
+  }
+
+  .latest-funding-companies {
+    flex-direction: column;
+  }
+
+  .latest-funding-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+
+  .latest-funding-menu a:nth-child(2) {
+    border: none;
+    padding-left: 10px;
+  }
+
+  .latest-funding-menu a,
+  .latest-funding-wrap > a {
+    margin-left: 0;
+    padding-left: 10px;
+  }
+
+  .latest-funding-menu a,
+  .latest-funding-menu a:nth-child(2) {
+    padding-top: 8px;
+    font-size: 14px;
+  }
+
+  .com-b8ta {
+    display: none;
+  }
+
+  .companies {
+    width: 100%;
+  }
+
+  .article-sections div {
+    width: 100%;
+  }
+
+  .article-back-img {
+    height: 480px;
   }
 }
 
