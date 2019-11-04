@@ -81,7 +81,7 @@
   font-size: 14px;
 }
 
-.bars-icon {
+.main-navbar div:nth-child(3) {
   display: none
 }
 
@@ -987,6 +987,10 @@ footer {
     width: 50px;
     display: flex;
     justify-content: space-evenly;
+  }
+
+  .main-navbar div:nth-child(3) {
+    display: flex;
   }
 
   .main-navbar div .bars-icon {
