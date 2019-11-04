@@ -315,7 +315,7 @@
 
 .latest-articles article img {
   height: 135px;
-  width: 270px;
+  width: 100%;
 }
 
 .latest-articles article h3 {
@@ -905,5 +905,13 @@ footer {
 
   .small-article-text h2 {
     font-size: 20px;
+  }
+
+  .latest-articles article {
+    flex-basis: 33.33%;
+    min-width: 230px;
+    overflow: hidden;
+    padding: 5px 10px;
+    
   }
 }
