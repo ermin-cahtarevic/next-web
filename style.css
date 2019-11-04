@@ -81,6 +81,10 @@
   font-size: 14px;
 }
 
+.bars-icon {
+  display: none
+}
+
 .main-navbar div {
   width: 50px;
   border-left: 1px solid rgb(209, 207, 207);
@@ -879,6 +883,10 @@ footer {
     padding-left: 100px;
   }
   
+  .bars-icon {
+    display: none
+  }
+  
   .article-text {
     height: 40%;
   }
@@ -945,3 +953,50 @@ footer {
     padding: 0 18px 0 10px; 
   }
 }
+
+/*  Max-widt 768 */ 
+
+@media only screen and (max-width: 768px) {
+  .top-navbar, .main-navbar ul {
+    display: none;
+  }
+
+  .tnw-logo img {
+    width: 70px;
+  }
+
+  .tnw-logo {
+    width: 106px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background-image: linear-gradient(to bottom right, #c09, #f42 85%);
+  }
+
+  .main-navbar {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .main-navbar div {
+    width: 50px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .main-navbar div .bars-icon {
+    display: block;
+    font-size: 20px;
+    padding: 0 16px;
+    color: #f42;
+  }
+  
+
+  
+}
+
