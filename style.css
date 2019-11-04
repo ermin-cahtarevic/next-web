@@ -890,7 +890,7 @@ footer {
 
   .red-gradient,
   .date,
-  .first-background img {
+  .first-background > img {
     visibility: hidden;
   }
 
