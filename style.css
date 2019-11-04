@@ -7,6 +7,10 @@
 
 /* Navigation Section */
 
+.tnw-logo {
+  display: none;
+}
+
 .top-navbar {
   display: flex;
   justify-content: space-between;
@@ -48,11 +52,15 @@
 
 .main-navbar {
   display: flex;
-  width: 100%;
   justify-content: space-between;
-  height: 48px;
   align-items: center;
+  width: 100%;
+  height: 48px;
   border-bottom: 0.5px solid rgb(209, 207, 207);
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 9999;
 }
 
 
@@ -84,7 +92,7 @@
  
 .main-navbar div i {
   color: rgb(209, 207, 207);
-  
+  cursor: pointer;
 } 
 
 .main-navbar div i:hover, 
@@ -98,16 +106,16 @@
   display: flex;
 }
 
-.first-background{
+.first-background {
   width: 65%;
-  height: 500px;
+  height: 600px;
   position: relative;
   border: 5px solid white;
   border-top-width: 10px;
 }
 
-.first-background > a{
-  height: 90%;
+.first-background > a {
+  height: 85%;
   width: 100%;
   display: inline-block;
   z-index: 99;
@@ -212,7 +220,7 @@
 .second-background {
   display: flex;
   width: 35%;
-  height: 500px;
+  height: 600px;
   flex-direction: column;
 }
 
@@ -845,4 +853,53 @@ footer {
   margin: 0 5px;
 }
 
+/* MEDIA QUERIES */
 
+/* Max-widt 1024 */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .tnw-logo img {
+    width: 106px;
+    height: 80px;
+  }
+
+  .tnw-logo {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+  }
+
+  .top-navbar, 
+  .main-navbar {
+    padding-left: 100px;
+  }
+  
+  .article-text {
+    height: 40%;
+  }
+
+  .article-text h2 {
+    font-size: 40px;
+  }
+
+  .first-background > a {
+    height: 90%;
+  }
+
+  .red-gradient,
+  .date,
+  .first-background img {
+    visibility: hidden;
+  }
+
+  .first-background, 
+  .second-background {
+    height: 400px;
+  }
+
+  .small-article-text h2 {
+    font-size: 20px;
+  }
+}
