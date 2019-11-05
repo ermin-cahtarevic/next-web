@@ -293,6 +293,35 @@
   list-style: none;
 }
 
+.latest-deals-img-container > div {
+  width: 25%;
+  padding: 5px 12px 0;
+}
+
+.off div {
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+  left: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  width: 100%;
+  color: #000;
+}
+
+.icons-nav div,
+.icons-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-nav div {
+  height: 90px;
+}
+
 .main-navbar div:nth-child(3) {
   display: none;
 }
@@ -736,11 +765,6 @@
   flex-wrap: wrap;
 }
 
-.latest-deals-img-container > div {
-  width: 25%;
-  padding: 5px 12px 0;
-}
-
 .latest-deals-img-container > div img {
   height: 201px;
   width: 100%;
@@ -787,18 +811,6 @@
   height: 80px;
 }
 
-.off div {
-  transform: rotate(45deg);
-  font-size: 14px;
-  font-weight: 700;
-  left: 8px;
-  position: relative;
-  text-align: center;
-  text-transform: uppercase;
-  top: 20px;
-  width: 100%;
-  color: #000;
-}
 
 
 /* Footer section */
@@ -817,17 +829,6 @@ footer {
   line-height: 24px;
   display: flex;
   flex-direction: column;
-}
-
-.icons-nav div,
-.icons-nav ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.icons-nav div {
-  height: 90px;
 }
 
 .copyright-nav {
@@ -1110,7 +1111,6 @@ footer {
   .article-back-img {
     height: 480px;
   }
-
 
   .latest-deals-img-container div a img {
     width: 75px;
