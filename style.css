@@ -12,7 +12,7 @@
 }
 
 .first-background > a {
-  height: 90%;
+  height: 85%;
   width: 100%;
   display: inline-block;
   z-index: 99;
@@ -170,6 +170,11 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
+}
+
+.article-sections > div {
+  width: 33%;
+  padding: 0 12px;
 }
 
 .article-sections div ul li a {
@@ -731,6 +736,11 @@
   flex-wrap: wrap;
 }
 
+.latest-deals-img-container > div {
+  width: 25%;
+  padding: 5px 12px 0;
+}
+
 .latest-deals-img-container > div img {
   height: 201px;
   width: 100%;
@@ -766,6 +776,7 @@
 }
 
 .off {
+  display: block;
   background-image: url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -774,6 +785,19 @@
   right: 0;
   width: 80px;
   height: 80px;
+}
+
+.off div {
+  transform: rotate(45deg);
+  font-size: 14px;
+  font-weight: 700;
+  left: 8px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  top: 20px;
+  width: 100%;
+  color: #000;
 }
 
 
@@ -791,6 +815,19 @@ footer {
   font-weight: 500;
   font-size: 13px;
   line-height: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icons-nav div,
+.icons-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-nav div {
+  height: 90px;
 }
 
 .copyright-nav {
@@ -960,30 +997,6 @@ footer {
     position: relative;
   }
 
-  .off div {
-    transform: rotate(45deg);
-    font-size: 14px;
-    font-weight: 700;
-    left: 8px;
-    position: relative;
-    text-align: center;
-    text-transform: uppercase;
-    top: 20px;
-    width: 100%;
-    color: #000;
-  }
-
-  .icons-nav div,
-  .icons-nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .icons-nav div {
-    height: 90px;
-  }
-
   .article-sections div {
     width: 100%;
   }
@@ -1116,12 +1129,12 @@ footer {
 
   .first-price {
     left: 100px;
-    top: 40%;
+    top: 53%;
   }
 
   .second-price {
     left: 138px;
-    top: 26%;
+    top: 40%;
   }
 
   .off {
