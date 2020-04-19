@@ -18,6 +18,8 @@ URL to the live version of our project: [TNW Clone](https://rawcdn.githack.com/e
 
 This a rebuild of The Next Web responsive website. The page we use for reference is [TNW](https://thenextweb.com/)
 
+<div align="center"><img src="images/nextweb.jpg"></div>
+
 ### Built With
 
 * [HTML](https://github.com/ermin-cahtarevic/next-web/blob/developer-branch/index.html)
