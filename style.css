@@ -382,6 +382,7 @@
   height: 40%;
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 42px;
 }
 
 .article-text p {
@@ -426,8 +427,9 @@
 .big-one {
   background-image: url(images/tnw.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100%;
+  background-position: 50%;
 }
 
 .second-background {
@@ -656,42 +658,50 @@
 
 .article-section-back-img-1 {
   background-image: url(images/twitter.png);
-  background-size: 100% 100%;
+  background-position: 50%;
+  background-size: cover;
 }
 
 .article-section-back-img-2 {
   background-image: url(images/iphone.jpeg);
-  background-size: 100% 100%;
+  background-position: 50%;
+  background-size: cover;
 }
 
 .article-section-back-img-3 {
   background-image: url(images/spy.png);
-  background-size: 100% 100%;
+  background-position: 50%;
+  background-size: cover;
 }
 
 .article-section-back-img-4 {
   background-image: url(images/Arcade.jpg);
-  background-size: 100% 100%;
+  background-position: 50%;
+  background-size: cover;
 }
 
 .article-section-back-img-5 {
   background-image: url(images/zero-trust.jpg);
-  background-size: 100% 100%;
+  background-position: 50%;
+  background-size: cover;
 }
 
 .article-section-back-img-6 {
   background-image: url(images/Computer-Code.jpg);
-  background-size: 100% 100%;
+  background-position: 50%;
+  background-size: cover;
 }
 
 .article-section-back-img-7 {
   background-image: url(images/Amazon-Prime.jpg);
-  background-size: 100% 100%;
+  background-position: 50%;
+  background-size: cover;
 }
 
 .article-section-back-img-8 {
   background-image: url(images/playstation-vue.jpg);
-  background-size: 100% 100%;
+  background-position: 50%;
+  background-size: cover;
 }
 
 .most-popular-container {
@@ -887,7 +897,7 @@ footer {
   }
 
   .article-text {
-    height: 40%;
+    height: 60%;
   }
 
   .article-text h2 {
@@ -1026,7 +1036,7 @@ footer {
   }
 
   .article-text {
-    height: 50%;
+    height: 68%;
   }
 
   .first-background,

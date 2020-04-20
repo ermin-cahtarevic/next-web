@@ -14,9 +14,11 @@ Clone of The Next Web - Responsive Website
 ## About The Project
 
 
-URL to the live version of our project: [TNW Clone](https://rawcdn.githack.com/ermin-cahtarevic/next-web/58627029f105d56acb7af3b76d902d8a6695b74c/index.html)
+URL to the live version of our project: [TNW Clone](https://rawcdn.githack.com/mcastorena0316/next-web/cc53412cba65fd27829efb3f461d48bf196eed4b/index.html)
 
 This a rebuild of The Next Web responsive website. The page we use for reference is [TNW](https://thenextweb.com/)
+
+<div align="center"><img src="images/nextweb.jpg"></div>
 
 ### Built With
 
